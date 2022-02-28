@@ -1,0 +1,68 @@
+html{
+    max-width: 100%;
+    max-height: 100vh;
+}
+a{
+    color: white;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.card{
+    margin: 10px;
+}
+.cards {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    max-width: 30%;
+    display: inline-block;
+}
+.cards h1{
+    color: rgb(64, 64, 172);
+}
+.cards p{
+    color: grey;
+}
+.cards{
+    text-align: left;
+}
+.cards ion-icon{
+    font-size: 70px;
+    color: grey;
+}
+
+.white{
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.336);
+}
+.red{
+    background-color: rgb(158, 57, 57);
+}
+.red h1, .blue h1{
+    color: white !important ;
+}
+.blue{
+    background-color: rgb(64, 64, 172);
+    color: white !important;
+}
+.icon-arrow-down{
+    display: inline;
+    font-size: 15px;
+}
+
+
+@media screen and (min-width : 0px) and (max-width : 768px){
+    .cards{
+        max-width: 100%;
+        width: 100%;
+
+    }
+    
+}
